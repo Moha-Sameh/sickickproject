@@ -36,9 +36,9 @@ export const List = () => {
           <h3>{item.songname}</h3>
           <p>{item.songrelease}</p>
           <p>{item.play}</p>
-          <Link to="https://www.youtube.com/watch?v=f2c7OAUuPnE">
+          <a href="https://www.youtube.com/watch?v=f2c7OAUuPnE">
             <p>{item.id}</p>
-          </Link>
+          </a>
         </ProductItemWrapper>
       ))}
     </div>
