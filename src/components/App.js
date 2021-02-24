@@ -4,6 +4,7 @@ import { List } from "./Latest";
 import StyledHome from "../styles/StyledHome";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
+import Audz from "../components/Infected.mp3";
 function App() {
   return (
     <Router>
@@ -24,11 +25,7 @@ function App() {
 export const Home = () => (
   <StyledHome>
     <div>
-      <ReactAudioPlayer
-        src="https://soundcloud.com/sickickofficial/casanova"
-        autoPlay
-        controls
-      />
+      <ReactAudioPlayer src={Audz} autoPlay controls />
       <h1>Welcome to Sickick un-official page</h1>
     </div>
   </StyledHome>
