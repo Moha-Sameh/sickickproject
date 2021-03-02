@@ -1,13 +1,12 @@
-import React from "react";
-import Popup from "reactjs-popup";
+// import React from "react";
+// import Popup from "reactjs-popup";
 
+// const
 
-const 
+// const PopupExample = () => (
+//   <Popup trigger={<button> Trigger</button>} position="right center">
+//     <div style={{ color: "Red" }}>Popup content here !!</div>
+//   </Popup>
+// );
 
-const PopupExample = () => (
-  <Popup trigger={<button> Trigger</button>} position="right center">
-    <div style={{ color: "Red" }}>Popup content here !!</div>
-  </Popup>
-);
-
-export default PopupExample;
+// export default PopupExample;

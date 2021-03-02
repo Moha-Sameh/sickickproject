@@ -1,10 +1,11 @@
 import { NavBar } from "./Navbar";
 import About from "./About";
-import { List } from "./Latest";
+import List from "./Latest";
 import StyledHome from "../styles/StyledHome";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
 import Audz from "../components/Infected.mp3";
+import PopupExample from "./Popup";
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/latest" component={List} />
+            <Route path="/latest" component={PopupExample} />
           </Switch>
         </div>
       </div>
