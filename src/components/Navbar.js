@@ -16,6 +16,9 @@ export const NavBar = () => {
           <Link to="/latest">
             <li>Latest</li>
           </Link>
+          <Link to="/popUp">
+            <li>Ammend</li>
+          </Link>
         </StyledUl>
       </StyledNavBar>
     </nav>
