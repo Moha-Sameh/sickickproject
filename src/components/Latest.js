@@ -26,8 +26,8 @@ const handleDelete = (musicID) => {
 
 const ProductItemWrapper = styled.div`
   display: grid;
-  gridtemplatecolumns: 1fr 1fr 1fr 1fr;
-  justifyitems: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
   flex-direction: column;
   justify-content: center;
   text-align: center;
