@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import dataStore from "./dataStore/dataStore";
 import { observer } from "mobx-react";
+import { BsPlusCircle } from "react-icons/bs";
 
 const List = () => {
   return (
@@ -14,6 +15,7 @@ const List = () => {
           <a href="https://www.youtube.com/watch?v=f2c7OAUuPnE">
             <p>{item.id}</p>
           </a>
+          <BsPlusCircle className="float-right" size="2em" />
           <button onClick={() => handleDelete(item.id)}>Delete</button>
         </ProductItemWrapper>
       ))}

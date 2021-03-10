@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
 import Audz from "../components/Infected.mp3";
 import PopupExample from "./Popup";
+
 function App() {
   return (
     <Router>
